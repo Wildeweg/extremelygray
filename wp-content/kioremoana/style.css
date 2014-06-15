@@ -823,7 +823,7 @@ a.more-link span,
 .entry-content ol {
 	font-size: 17px;
 	font-size: 1.0625rem;
-	line-height: 1.7;
+	line-height: 1.5;
 	word-wrap: break-word;
 	-ms-word-wrap: break-word;
 }
@@ -2595,8 +2595,8 @@ p.comment-subscription-form:last-child {
 	.entry-content ul, 
 	.entry-content ol {
 		font-size: 20px;
-		font-size: 1.25rem;
-		line-height: 1.7;
+		font-size: 1rem;
+		line-height: 1.6;
 	}
 	.site-content .post,
 	.site-content .type-attachment,
@@ -2957,11 +2957,11 @@ p.comment-subscription-form:last-child {
 	#colophon,
 	.archive-header,
 	#disqus_thread {
-		max-width: 960px;
+		max-width: 680px;
 		margin-left: auto;
 		margin-right: auto;
 		padding-left: 70px;
-		padding-right: 70px;
+		padding-right: 70px;	
 	}
 	#site-title {
 		max-width: 1300px;
