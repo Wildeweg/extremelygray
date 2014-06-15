@@ -647,7 +647,7 @@ a.more-link span,
 }
 
 /* --- Post Header --- */
-.entry-thumbnail {
+.entry-thumbnail, .hero-image {
 	z-index: 1;
 	line-height: 0;
 	text-align: center;
