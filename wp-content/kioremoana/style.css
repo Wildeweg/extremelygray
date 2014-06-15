@@ -68,7 +68,7 @@ input {-webkit-border-radius:0; border-radius:0;}
 body {
 	margin: 0 auto;
 	background: #fff;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "skolar", Georgia, "Times New Roman", Times, serif;
 	color: #212121;
 	-webkit-hyphens: auto;
 	   -moz-hyphens: auto;
@@ -128,7 +128,7 @@ input#s,
 .grey-box,
 .dark-box,
 .format-chat ul {
-	font-family: 'Raleway', Helvetica, sans-serif;
+	font-family: "skolar", Georgia, "Times New Roman", Times, serif;
 }
 h1, h2, h3, h4, h5, h6,
 #masthead a.info-btn,
@@ -903,7 +903,7 @@ img#wpstats {
 .gallery-item .gallery-caption,
 .type-attachment .entry-content .entry-caption p {
 	text-align: left;
-	font-family: 'Raleway', Helvetica, sans-serif;
+	font-family: "skolar", Georgia, "Times New Roman", Times, serif;
 	font-size: 14px;
 	font-size: 0.875rem;
 	color: #7f8c8d;
@@ -1698,7 +1698,7 @@ body.template-info .entry-content h3 {
 /* --- Page Navigation Widgets --- */
 .template-info .widget_nav_menu,
 .template-info .widget_pages {
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "skolar", Georgia, "Times New Roman", Times, serif;
 	font-size: 20px;
 	font-size: 1.25rem;
 }
