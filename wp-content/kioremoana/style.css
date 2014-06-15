@@ -902,6 +902,7 @@ img.img-border {
 .wp-caption {
 	max-width: 100%;
 }
+
 img#wpstats {
 	display: none;
 }
@@ -2960,8 +2961,6 @@ p.comment-subscription-form:last-child {
 		max-width: 680px;
 		margin-left: auto;
 		margin-right: auto;
-		padding-left: 70px;
-		padding-right: 70px;	
 	}
 	#site-title {
 		max-width: 1300px;
@@ -3224,6 +3223,17 @@ p.comment-subscription-form:last-child {
 	.wp-pagenavi span.current {
 		padding: 22px 28px !important;
 	}
+	
+	/* --- Images --- */
+	.size-full {
+			width: 154,411764705882%;
+			margin-left: -27,205882352941%;
+			margin-left: -185px;
+	}
+	img, .wp-caption {
+		max-width: none;		
+	}
+	
 }
 
 /* Minimum width of 1360 pixels (15' laptops + desktops)
@@ -3308,6 +3318,17 @@ p.comment-subscription-form:last-child {
 	.entry-content p.sidenote-right {
 		margin-right: -100px;
 	}
+	
+	/* --- Images --- */
+	.size-full {
+			width: 154,411764705882%;
+			margin-left: -27,205882352941%;
+			margin-left: -185px;
+	}
+	.wp-caption {
+		max-width: none;
+	}
+	
 }
 
 /*-----------------------------------------------------------------------------------*/
