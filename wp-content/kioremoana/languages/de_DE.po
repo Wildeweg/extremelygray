@@ -1,0 +1,886 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kiore Moana v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-10-02 04:08:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: content-single.php:39
+#: content.php:53
+#@ kioremoana
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: comments.php:12
+#@ kioremoana
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Dieser Artikel ist Passwort geschützt. Trage das Passwort ein, um die Kommentare zu sehen."
+
+#: content.php:14
+#: content.php:20
+#, php-format
+#@ kioremoana
+msgid "Permalink to %s"
+msgstr "Permalink zu %s"
+
+#: functions.php:142
+#, php-format
+#@ kioremoana
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: functions.php:275
+#@ kioremoana
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar befindet sich in Moderation."
+
+#: 404.php:18
+#: archive.php:80
+#: search.php:37
+#@ kioremoana
+msgid "Nothing Found"
+msgstr "Keine Einträge gefunden"
+
+#: inc/widgets.php:60
+#: inc/widgets.php:141
+#: inc/widgets.php:397
+#: inc/widgets.php:623
+#: inc/widgets.php:692
+#@ kioremoana
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/theme-options.php:63
+#: inc/theme-options.php:64
+#@ kioremoana
+msgid "Theme Options"
+msgstr "Theme Optionen"
+
+#: inc/theme-options.php:112
+#, php-format
+#@ kioremoana
+msgid "%s Theme Options"
+msgstr "%s Theme Optionen"
+
+#: inc/theme-options.php:137
+#: inc/theme-options.php:139
+#@ kioremoana
+msgid "Link Color"
+msgstr "Linkfarbe"
+
+#: functions.php:277
+#@ kioremoana
+msgid "Reply"
+msgstr "Antworten"
+
+#: inc/widgets.php:70
+#@ kioremoana
+msgid "Number of photos:"
+msgstr "Anzahl der Bilder:"
+
+#: inc/widgets.php:81
+#@ kioremoana
+msgid "User"
+msgstr "Person"
+
+#: inc/widgets.php:82
+#@ kioremoana
+msgid "Group"
+msgstr "Gruppe"
+
+#: inc/widgets.php:86
+#@ kioremoana
+msgid "Show latest or random pictures:"
+msgstr "Zeige neuste oder zufällige Bilder:"
+
+#: inc/widgets.php:88
+#@ kioremoana
+msgid "Latest"
+msgstr "Neuste"
+
+#: inc/widgets.php:89
+#@ kioremoana
+msgid "Random"
+msgstr "Zufällige"
+
+#: inc/widgets.php:79
+#@ kioremoana
+msgid "Choose user or group:"
+msgstr "Wähle Person oder Gruppe:"
+
+#: inc/widgets.php:65
+#@ kioremoana
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\" target=\"_blank\">idGettr</a>):"
+msgstr "Flickr ID (<a href=\"http://www.idgettr.com\" target=\"_blank\">idGettr</a>):"
+
+#: inc/theme-options.php:216
+#@ kioremoana
+msgid "Customize the footer credit text. Standard HTML is allowed."
+msgstr "Trage deinen eigenen Footer-Text ein. Standard HTML-Code ist möglich."
+
+#: image.php:25
+#: inc/widgets.php:596
+#@ kioremoana
+msgid "0 comments"
+msgstr "0 Kommentare"
+
+#: content-single.php:25
+#: content.php:25
+#: image.php:25
+#: inc/widgets.php:596
+#@ kioremoana
+msgid "% comments"
+msgstr "% Kommentare"
+
+#: inc/widgets.php:146
+#@ kioremoana
+msgid "Video embed code:"
+msgstr "Video-Einbettungscode:"
+
+#: inc/theme-options.php:227
+#: inc/theme-options.php:229
+#@ kioremoana
+msgid "Share option for posts"
+msgstr "Teilen-Buttons für Artikel"
+
+#: share.php:13
+#@ kioremoana
+msgid "Tweet"
+msgstr "Twitter"
+
+#: inc/theme-options.php:189
+#@ kioremoana
+msgid "WordPress Media Uploader"
+msgstr "WordPress Mediathek"
+
+#: functions.php:290
+#@ kioremoana
+msgid "<span>Pingback:</span>"
+msgstr "<span>Pingback:</span>"
+
+#: inc/theme-options.php:189
+#@ kioremoana
+msgid ". Then copy your logo image file URL and insert the URL here."
+msgstr ". Dann kopiere deine Logobild-URL und trage die URL hier ein."
+
+#: footer.php:28
+#@ kioremoana
+msgid "Proudly powered by"
+msgstr "Proudly powered by"
+
+#: footer.php:29
+#, php-format
+#@ kioremoana
+msgid "Theme: %1$s by %2$s"
+msgstr "Theme: %1$s von %2$s"
+
+#: archive.php:42
+#@ kioremoana
+msgid "Archives"
+msgstr "Archiv"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: content-single.php:25
+#: content.php:25
+#: image.php:25
+#: inc/widgets.php:596
+#, php-format
+#@ kioremoana
+msgid "1 comment"
+msgid_plural "%1$s comments"
+msgstr[0] "1 Kommentar"
+msgstr[1] "%1$s Kommentare"
+
+#: footer.php:28
+#@ kioremoana
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: functions.php:44
+#@ kioremoana
+msgid "Footer Navigation (no sub menus supported)"
+msgstr "Footer Navigation (es werden keine Untermenüs unterstützt)"
+
+#: inc/widgets.php:402
+#@ kioremoana
+msgid "Twitter URL:"
+msgstr "Twitter URL:"
+
+#: inc/widgets.php:407
+#@ kioremoana
+msgid "Facebook URL:"
+msgstr "Facebook URL:"
+
+#: inc/widgets.php:412
+#@ kioremoana
+msgid "Google+ URL:"
+msgstr "Google+ URL:"
+
+#: inc/widgets.php:422
+#@ kioremoana
+msgid "Flickr URL:"
+msgstr "Flickr URL:"
+
+#: inc/widgets.php:432
+#@ kioremoana
+msgid "Picasa URL:"
+msgstr "Picasa URL:"
+
+#: inc/widgets.php:437
+#@ kioremoana
+msgid "500px URL:"
+msgstr "500px URL:"
+
+#: inc/widgets.php:442
+#@ kioremoana
+msgid "YouTube URL:"
+msgstr "YouTube URL:"
+
+#: inc/widgets.php:447
+#@ kioremoana
+msgid "Vimeo URL:"
+msgstr "Vimeo URL:"
+
+#: inc/widgets.php:452
+#@ kioremoana
+msgid "Dribbble URL:"
+msgstr "Dribbble URL:"
+
+#: inc/widgets.php:457
+#@ kioremoana
+msgid "Ffffound URL:"
+msgstr "Ffffound URL:"
+
+#: inc/widgets.php:462
+#@ kioremoana
+msgid "Pinterest URL:"
+msgstr "Pinterest URL:"
+
+#: inc/widgets.php:467
+#@ kioremoana
+msgid "Behance Network URL:"
+msgstr "Behance Network URL:"
+
+#: inc/widgets.php:472
+#@ kioremoana
+msgid "deviantART URL:"
+msgstr "deviantART URL:"
+
+#: inc/widgets.php:477
+#@ kioremoana
+msgid "Squidoo URL:"
+msgstr "Squidoo URL:"
+
+#: inc/widgets.php:482
+#@ kioremoana
+msgid "Slideshare URL:"
+msgstr "Slideshare URL:"
+
+#: inc/widgets.php:487
+#@ kioremoana
+msgid "Last.fm URL:"
+msgstr "Last.fm URL:"
+
+#: inc/widgets.php:492
+#@ kioremoana
+msgid "Grooveshark URL:"
+msgstr "Grooveshark URL:"
+
+#: inc/widgets.php:497
+#@ kioremoana
+msgid "Soundcloud URL:"
+msgstr "Soundcloud URL:"
+
+#: inc/widgets.php:502
+#@ kioremoana
+msgid "Foursquare URL:"
+msgstr "Foursquare URL:"
+
+#: inc/widgets.php:507
+#@ kioremoana
+msgid "GitHub URL:"
+msgstr "GitHub URL:"
+
+#: inc/widgets.php:512
+#@ kioremoana
+msgid "Linkedin URL:"
+msgstr "Linkedin URL:"
+
+#: inc/widgets.php:517
+#@ kioremoana
+msgid "Xing URL:"
+msgstr "Xing URL:"
+
+#: inc/widgets.php:522
+#@ kioremoana
+msgid "WordPress URL:"
+msgstr "WordPress URL:"
+
+#: inc/widgets.php:527
+#@ kioremoana
+msgid "Tumblr URL:"
+msgstr "Tumblr URL:"
+
+#: inc/widgets.php:532
+#@ kioremoana
+msgid "RSS-Feed URL:"
+msgstr "RSS-Feed URL:"
+
+#: inc/widgets.php:537
+#@ kioremoana
+msgid "RSS for Comments URL:"
+msgstr "RSS der Kommentare URL:"
+
+#: inc/theme-options.php:231
+#@ kioremoana
+msgid "Check this box to include share buttons (for Twitter, Facebook, Google+) on your blogs front page and on single post pages."
+msgstr "Wähle diese Option, um die Share-Buttons (für Twitter, Google+, Facebook) auf der Blog-Startseite, sowie auf Artikel-Einzelseiten anzuzeigen."
+
+#: search.php:18
+#, php-format
+#@ kioremoana
+msgid "Search Results for &lsquo;%s&rsquo;"
+msgstr "Suchergebnisse für &lsquo;%s&rsquo;"
+
+#: searchform.php:11
+#@ kioremoana
+msgid "Search"
+msgstr "Suche"
+
+#: content-single.php:28
+#: content.php:28
+#: functions.php:270
+#: image.php:28
+#@ kioremoana
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: inc/widgets.php:717
+#@ kioremoana
+msgid "About Text:"
+msgstr "About Text:"
+
+#: inc/theme-options.php:135
+#@ kioremoana
+msgid "Custom Colors"
+msgstr "Eigene Farben wählen"
+
+#: inc/theme-options.php:203
+#: inc/theme-options.php:205
+#@ kioremoana
+msgid "Post Excerpts"
+msgstr "Artikel-Exzerpte"
+
+#: inc/theme-options.php:225
+#@ kioremoana
+msgid "Share Buttons"
+msgstr "Teilen Buttons"
+
+#: inc/widgets.php:427
+#@ kioremoana
+msgid "Instagram URL:"
+msgstr "Instagram URL:"
+
+#: functions.php:195
+#: functions.php:201
+#@ kioremoana
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: inc/theme-options.php:236
+#: inc/theme-options.php:238
+#@ kioremoana
+msgid "Share option on single posts only"
+msgstr "Teilen-Buttons nur in Einzel-Artikeln"
+
+#: inc/theme-options.php:240
+#@ kioremoana
+msgid "Check this box to include the share post buttons <strong>only</strong> on single posts (below the post content)."
+msgstr "Wähle diese Option, um die Teilen-Buttons <strong>nur</strong> in Einzel-Artikeln (unterhalb des Artikel-Inhalts) anzuzeigen."
+
+#: archive.php:29
+#, php-format
+#@ kioremoana
+msgid "All Posts by &lsquo;%s&rsquo;"
+msgstr "Alle Artikel von &lsquo;%s&rsquo;"
+
+#: archive.php:84
+#@ kioremoana
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "Es scheint als könnten wir nicht finden, wonach du suchst."
+
+#: comments.php:61
+#@ kioremoana
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: comments.php:67
+#@ kioremoana
+msgid "<p class=\"comment-note\">Required fields are marked <span class=\"required\">*</span>.</p>"
+msgstr "<p class=\"comment-note\">Pflichtfelder sind mit <span class=\"required\">*</span> markiert.</p>"
+
+#: content-single.php:56
+#@ kioremoana
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#: footer.php:28
+#@ kioremoana
+msgid "WordPress."
+msgstr "WordPress."
+
+#: functions.php:263
+#, php-format
+#@ kioremoana
+msgid " %s "
+msgstr " %s "
+
+#. translators: 1: date
+#: functions.php:267
+#, php-format
+#@ kioremoana
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/theme-options.php:148
+#: inc/theme-options.php:150
+#@ kioremoana
+msgid "Text Link Hover Color"
+msgstr "Text Link-Hover Farbe"
+
+#: inc/theme-options.php:183
+#@ kioremoana
+msgid "Custom Logo, Post Excerpts and Footer Text"
+msgstr "Eigenes Logo, Artikel-Exzerpte und Footer-Text"
+
+#: inc/theme-options.php:185
+#: inc/theme-options.php:187
+#@ kioremoana
+msgid "Logo Image"
+msgstr "Logo-Bild"
+
+#: inc/theme-options.php:212
+#: inc/theme-options.php:214
+#@ kioremoana
+msgid "Footer Credit Text"
+msgstr "Footer Credit-Text"
+
+#: inc/widgets.php:417
+#@ kioremoana
+msgid "App.net URL:"
+msgstr "App.net URL:"
+
+#: inc/widgets.php:633
+#@ kioremoana
+msgid "Category ID numbers (to choose which categories to include):"
+msgstr "Kategorie ID Nummern (um zu bestimmen, welche Kategorien angezeigt werden sollen):"
+
+#: page-templates/page-archive.php:24
+#@ kioremoana
+msgid "Filter by Tags"
+msgstr "Filter nach Schlagwörtern"
+
+#: page-templates/page-archive.php:29
+#@ kioremoana
+msgid "The Latest 30 Posts"
+msgstr "Die neuesten 30 Artikel"
+
+#: page-templates/page-archive.php:34
+#@ kioremoana
+msgid "The Monthly Archive"
+msgstr "Artikel nach Monaten sortiert"
+
+#: inc/widgets.php:18
+#@ kioremoana
+msgid "A number of Flickr preview images"
+msgstr "Eine Anzahl von Flickr Vorschaubildern"
+
+#: inc/widgets.php:105
+#@ kioremoana
+msgid "Show a featured video"
+msgstr "Zeige ein Featured Video"
+
+#: inc/widgets.php:164
+#@ kioremoana
+msgid "Show icons with links to your social profiles"
+msgstr "Zeige Icons mit Links zu deinen sozialen Profilen"
+
+#: 404.php:22
+#@ kioremoana
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help!"
+msgstr "Entschuldigung, aber die von dir gesuchte Seiten könnte leider nicht gefunden werden. Vielleicht hilft eine erneute Suche!"
+
+#: archive.php:22
+#, php-format
+#@ kioremoana
+msgid "All Posts Filed in &lsquo;%s&rsquo;"
+msgstr "Alle Artikel veröffentlicht in &lsquo;%s&rsquo;"
+
+#: archive.php:25
+#, php-format
+#@ kioremoana
+msgid "All Posts Tagged &lsquo;%s&rsquo;"
+msgstr "Alle Artikel mit dem Schlagwort &lsquo;%s&rsquo;"
+
+#: archive.php:33
+#, php-format
+#@ kioremoana
+msgid "Daily Archives of: %s"
+msgstr "Alle Artikel von %s"
+
+#: archive.php:36
+#, php-format
+#@ kioremoana
+msgid "Monthly Archives of: %s"
+msgstr "Alle Artikel des Monats: %s"
+
+#: archive.php:39
+#, php-format
+#@ kioremoana
+msgid "Yearly Archives of: %s"
+msgstr "Alle Artikel des Jahres: %s"
+
+#: comments.php:28
+#, php-format
+#@ kioremoana
+msgid "1 Comment so far"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Kommentar"
+msgstr[1] "%1$s Kommentare"
+
+#: comments.php:32
+#@ kioremoana
+msgid "Join the Conversation"
+msgstr "An der Unterhaltung teilnehmen"
+
+#: comments.php:50
+#: functions.php:338
+#@ kioremoana
+msgid "<span>&larr; Older</span>"
+msgstr "<span>&larr; Ältere</span>"
+
+#: comments.php:51
+#: functions.php:339
+#@ kioremoana
+msgid "<span>Newer &rarr;</span>"
+msgstr "<span>Neuere &rarr;</span>"
+
+#: comments.php:66
+#@ kioremoana
+msgid "<h3 id=\"reply-title\">Leave a Reply</h3>"
+msgstr "<h3 id=\"reply-title\">Schreibe eine Antwort</h3>"
+
+#: comments.php:69
+#@ kioremoana
+msgctxt "noun"
+msgid "Comment <span class=\"required\">*</span>"
+msgstr "Pflichtfeld <span class=\"required\">*</span>"
+
+#: comments.php:70
+#@ kioremoana
+msgid "Post Comment"
+msgstr "Kommentar senden"
+
+#: content-single.php:19
+#: image.php:19
+#@ kioremoana
+msgid "Post Format"
+msgstr "Artikelformat"
+
+#: content-single.php:25
+#@ kioremoana
+msgid "Leave a Reply"
+msgstr "Hinterlasse eine Antwort"
+
+#: content-single.php:46
+#, php-format
+#@ kioremoana
+msgid "Posted by %s"
+msgstr "Veröffentlicht von %s"
+
+#: content-single.php:53
+#@ kioremoana
+msgid "Category"
+msgstr "Kategorie"
+
+#: content.php:19
+#@ kioremoana
+msgid "Post"
+msgstr "Artikel"
+
+#: content.php:25
+#@ kioremoana
+msgid "Leave a reply"
+msgstr "Hinterlasse eine Antwort"
+
+#: functions.php:70
+#@ kioremoana
+msgctxt "PT Sans font: on or off"
+msgid "on"
+msgstr "am"
+
+#: functions.php:72
+#@ kioremoana
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr "am"
+
+#: functions.php:291
+#@ kioremoana
+msgid "Edit;"
+msgstr "Bearbeiten"
+
+#: functions.php:306
+#@ kioremoana
+msgid "Main Widget Area"
+msgstr "Haupt-Widgetbereich"
+
+#: functions.php:308
+#@ kioremoana
+msgid "Widgets will appear in the Kiore Moana Info Page Template."
+msgstr "Widgets werden auf der Kiore Moana Infoseiten-Vorlage erscheinen."
+
+#: functions.php:316
+#@ kioremoana
+msgid "Header Slogan Widget Area"
+msgstr "Header-Slogan Widgetbereich"
+
+#: functions.php:318
+#@ kioremoana
+msgid "Widget area for the header slogan."
+msgstr "Widgetbereich für den Header-Slogan"
+
+#: image.php:82
+#@ kioremoana
+msgid "<span>&larr; Previous</span>"
+msgstr "<span>&larr; Vorherige</span>"
+
+#: image.php:83
+#@ kioremoana
+msgid "<span>Next &rarr;</span>"
+msgstr "<span>Neuere &rarr;</span>"
+
+#: inc/theme-options.php:123
+#@ kioremoana
+msgid "Info Page Settings"
+msgstr "Info-Seiten Einstellung"
+
+#: inc/theme-options.php:124
+#: inc/theme-options.php:126
+#@ kioremoana
+msgid "Info Page URL"
+msgstr "Info-Seiten URL"
+
+#: inc/theme-options.php:128
+#@ kioremoana
+msgid "First create a new page to be your info page (you can name the page as you like).<br/> Set the Page Attribute / Template / <strong>Info Page Template</strong> for this page, deactivate comments (see Discussion / Allow Comments) and publish the page.<br/> Now include the page URL of your new info page here."
+msgstr "Erstelle zuerst eine neue Seite für deine Info-Seite (du kannst ihr einen beliebigen Namen geben). <br/> Setze die Seiten-Attribute / Template / Info Page für diese Seite, deaktiviere die Kommentare (siehe Diskussion / Erlaube Kommentare) und veröffentliche deine neue Seite. Dann kannst du die URL diese neuen Seite hier eintragen."
+
+#: inc/theme-options.php:143
+#, php-format
+#@ kioremoana
+msgid "Choose your link color, the default link color is: <strong>%s</strong>."
+msgstr "Wähle deine Link-Farbe, die Standard-Farbe ist: <strong>%s</strong>."
+
+#: inc/theme-options.php:154
+#, php-format
+#@ kioremoana
+msgid "Choose your text link hover color, the default link hover color is: <strong>%s</strong>."
+msgstr "Wähle deine Textlink-Hover Farbe, die Standard-Farbe ist: <strong>%s</strong>."
+
+#: inc/theme-options.php:159
+#: inc/theme-options.php:161
+#@ kioremoana
+msgid "Info Page Background Color"
+msgstr "Info-Seite Hintergrundfarbe"
+
+#: inc/theme-options.php:165
+#, php-format
+#@ kioremoana
+msgid "Choose your Info Page background color, the default color is: <strong>%s</strong>."
+msgstr "Wähle deine Info-Seiten Hintergrundfarbe, die Standard-Farbe ist: <strong>%s</strong>."
+
+#: inc/theme-options.php:170
+#: inc/theme-options.php:172
+#@ kioremoana
+msgid "Info Page Button Hover Color"
+msgstr "Hover-Farbe des Info-Seiten Buttons"
+
+#: inc/theme-options.php:176
+#, php-format
+#@ kioremoana
+msgid "Choose your Info Page button hover color, the default color is: <strong>%s</strong>."
+msgstr "Wähle deine Info-Seiten Button Hoverfarbe, die Standardfarbe ist:  <strong>%s</strong>."
+
+#: inc/theme-options.php:189
+#@ kioremoana
+msgid "Upload your own logo image (flexible width and height, e.g. 115x115px) using the "
+msgstr "Lade dein eigenes Logobild hoch (Breite und Höhe sind flexibel, z.B. 115x115px) und nutze den "
+
+#: inc/theme-options.php:194
+#: inc/theme-options.php:196
+#@ kioremoana
+msgid "Hide Site Title"
+msgstr "Seiten-Titel nicht anzeigen"
+
+#: inc/theme-options.php:198
+#@ kioremoana
+msgid "Check this box hide the site title and only include your custom logo image."
+msgstr "Wähle diese Option, um den Seiten-Titel zu verbergen und nur dein eigenes Logobild anzuzeigen."
+
+#: inc/theme-options.php:207
+#@ kioremoana
+msgid "Check this box to show automatic post excerpts for standard posts. With this option you will not need to add the more tag in posts."
+msgstr "Wähle diese Option, um automatische Artikel-Auszüge (Exzerpte) der Standard-Artikel anzuzeigen. Mit dieser Option benötigst du keine more-links für deine Artikel."
+
+#: inc/theme-options.php:247
+#@ kioremoana
+msgid "Custom CSS"
+msgstr "Eigenes CSS"
+
+#: inc/theme-options.php:249
+#: inc/theme-options.php:251
+#@ kioremoana
+msgid "Include Custom CSS"
+msgstr "Eigenes CSS integrieren"
+
+#: inc/theme-options.php:253
+#@ kioremoana
+msgid "Include custom CSS styles, use !important to overwrite existing styles."
+msgstr "Integriere eigene CSS-Styles. Nutze !important , um bestehende CSS-Styles zu überschreiben."
+
+#: inc/widgets.php:20
+#@ kioremoana
+msgid "Flickr (Kiore Moana)"
+msgstr "Flickr (Kiore Moana)"
+
+#: inc/widgets.php:107
+#@ kioremoana
+msgid "Kiore Moana Featured Video"
+msgstr "Featured Video (Kiore Moana)"
+
+#: inc/widgets.php:166
+#@ kioremoana
+msgid "Social Links (Kiore Moana)"
+msgstr "Social Links (Kiore Moana)"
+
+#: inc/widgets.php:555
+#@ kioremoana
+msgid "A number of Recent Posts for your widget page"
+msgstr "Eine Anzahl neuester Artikel für deine Widget Info-Seite"
+
+#: inc/widgets.php:557
+#@ kioremoana
+msgid "Recent Posts (Kiore Moana)"
+msgstr "Neueste Artikel (Kiore Moana)"
+
+#: inc/widgets.php:628
+#@ kioremoana
+msgid "Number of posts to display:"
+msgstr "Anzahl der Artikel:"
+
+#: inc/widgets.php:653
+#@ kioremoana
+msgid "About (Kiore Moana)"
+msgstr "About (Kiore Moana)"
+
+#: inc/widgets.php:697
+#@ kioremoana
+msgid "Image URL:"
+msgstr "Bild URL:"
+
+#: inc/widgets.php:702
+#@ kioremoana
+msgid "Image Width (e.g. 320):"
+msgstr "Bild-Breite (z.B. 320):"
+
+#: inc/widgets.php:707
+#@ kioremoana
+msgid "Image Height (e.g. 320):"
+msgstr "Bild-Höhe (z.B. 320):"
+
+#: inc/widgets.php:712
+#@ kioremoana
+msgid "About Subtitle:"
+msgstr "About-Untertitel:"
+
+#: inc/widgets.php:736
+#@ kioremoana
+msgid "Header Slogan (Kiore Moana)"
+msgstr "Header Slogan (Kiore Moana)"
+
+#: inc/widgets.php:768
+#@ kioremoana
+msgid "Header Slogan Title:"
+msgstr "Header Slogan Titel:"
+
+#: inc/widgets.php:773
+#@ kioremoana
+msgid "Header Slogan Text:"
+msgstr "Header Slogan Text:"
+
+#: masthead.php:14
+#@ kioremoana
+msgid "Info"
+msgstr "Info"
+
+#: masthead.php:14
+#@ kioremoana
+msgid "More Info"
+msgstr "Mehr Info"
+
+#: search.php:40
+#@ kioremoana
+msgid "Sorry, but nothing matched your search criteria. Please try again!"
+msgstr "Entschuldige, es konnten keine Einträge gefunden werden. Bitte versuche es erneut!"
+
+#: searchform.php:10
+#@ kioremoana
+msgid "Type to Search ..."
+msgstr "Suche ..."
+
+#: share.php:10
+#@ kioremoana
+msgid "Share This"
+msgstr "Teilen"
+
+#: masthead.php:14
+#@ kioremoana
+msgid "Info Button"
+msgstr "Info Button"
+
+#: page-templates/page-info.php:13
+#@ kioremoana
+msgid "Back Home"
+msgstr "Startseite"
+
+#: page-templates/page-info.php:13
+#@ kioremoana
+msgid "Home Button"
+msgstr "Startseite Button"
+
+#: single.php:26
+#@ kioremoana
+msgid "&larr; Previous Post"
+msgstr "&larr; Vorheriger Artikel"
+
+#: single.php:27
+#@ kioremoana
+msgid "Next Post  &rarr;"
+msgstr "Nächster Artikel  &rarr;"
+
