@@ -455,7 +455,7 @@ a.more-link {
 	display: inline-block;
 	height: 50px;
 	padding: 0 50px 0 0;
-	background: #0089a7 url(images/more-icon.png) right 50% no-repeat;
+	background: #6F6F6F url(images/more-icon.png) right 50% no-repeat;
 	background-size: 50px auto;
 	font-size: 15px;
 	font-size: 0.9375rem;
@@ -493,14 +493,14 @@ input.wpcf7-submit {
 }
 a:hover,
 #comments li.comment-author a:hover {
-	color: #0089a7;
+	color: #6F6F6F;
 }
 #comments .comment-text p.comment-reply a.comment-reply-link:hover,
 #respond a#cancel-comment-reply-link:hover,
 input#submit:hover, 
 input.wpcf7-submit:hover,
 a.more-link:hover span {
-	background: #0089a7;
+	background: #6F6F6F;
 }
 
 /* --- Grey Link Color --- */
@@ -1190,7 +1190,7 @@ video {
 }
 #comments p.comment-awaiting-moderation {
 	display: block;
-	color: #0089a7;
+	color: #6F6F6F;
 }
 
 /* Pingbacks */
@@ -2994,8 +2994,8 @@ p.comment-subscription-form:last-child {
 	/* --- Post --- */
 	.entry-header h1.entry-title,
 	.entry-header h2.entry-title {
-		font-size: 56px;
-		font-size: 3.5rem;
+		font-size: 40px;
+		font-size: 2.5rem;
 		padding: 80px 0 20px;
 	}
 	.entry-content p,
@@ -3338,7 +3338,7 @@ p.comment-subscription-form:last-child {
 (-o-min-device-pixel-ratio: 3/2),
 (-webkit-min-device-pixel-ratio: 1.5),
 (min-device-pixel-ratio: 1.5) {
-	a.more-link {background: #0089a7 url(images/x2/more-icon.png) right 50% no-repeat; background-size: 50px auto;}
+	a.more-link {background: #6F6F6F url(images/x2/more-icon.png) right 50% no-repeat; background-size: 50px auto;}
 	#masthead a.info-btn {background: #eb7a77 url(images/x2/info-icon.png) 0 0 no-repeat; background-size: 70px 70px;}
 	#masthead a.info-btn:hover {background: #cb4042 url(images/x2/info-icon.png) 0 0 no-repeat; background-size: 70px 70px;}
 	.site-content .post,
