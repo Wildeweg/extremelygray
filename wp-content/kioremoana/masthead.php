@@ -14,18 +14,20 @@
 		<a href="<?php echo $options['info_page']; ?>" class="info-btn" title="<?php _e('Info', 'kioremoana') ?>"><span class="more-info"><?php _e('More Info', 'kioremoana') ?></span><span class="show-info"><?php _e('Info Button', 'kioremoana') ?></span></a>
 	<?php endif; ?>
 	
-	<div class="hero-image">
-		<img width="1440" height="666" src="http://testcms.wildeweg.nl/wp-content/uploads/2014/06/hero-image.png" class="attachment-post-thumbnail wp-post-image" alt="hero-image" />
+	<div class="hero-image">		
+		<div id="site-title">
+		<?php if( $options['custom_logo'] != '' ) : ?>
+			<a href="<?php echo home_url( '/' ); ?>" class="logo"><img src="<?php echo $options['custom_logo']; ?>" alt="<?php bloginfo('name'); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a>
+		<?php endif; ?>
+		<?php if( $options['hide-title'] == 0 ) : ?>
+			<h1><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+		<?php endif; ?>
+		</div><!-- end #site-title -->
+		
+		
 	</div>
 	
-	<div id="site-title">
-	<?php if( $options['custom_logo'] != '' ) : ?>
-		<a href="<?php echo home_url( '/' ); ?>" class="logo"><img src="<?php echo $options['custom_logo']; ?>" alt="<?php bloginfo('name'); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a>
-	<?php endif; ?>
-	<?php if( $options['hide-title'] == 0 ) : ?>
-		<h1><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-	<?php endif; ?>
-	</div><!-- end #site-title -->
+	
 
 	<?php if ( is_active_sidebar( 'sidebar-2' ) &&  is_front_page() ) : ?>
 			<?php dynamic_sidebar( 'sidebar-2' ); ?>

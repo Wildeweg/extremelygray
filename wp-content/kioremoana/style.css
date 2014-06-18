@@ -578,28 +578,35 @@ a.more-link span,
 	display: none;
 }
 #site-title {
-	padding-top: 30px;
-	padding-bottom: 50px;
-	text-align: center;
+	text-align: left;
 }
 .no-info #site-title {
-	padding-top: 40px;
 }
 #site-title h1 {
 	display: block;
-	margin: 8px 0 0 0;
+	margin: 515px 0 0 280px;
 	padding: 0;
-	font-size: 15px;
+	font-size: 20px;
 	font-size: 0.9375rem;
 	line-height: 1.6;
 	font-weight: 800;
-	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	word-wrap: break-word;
+	color: #FFF;
+	
 }
+
 #site-title h1 a {
-	color: #4f5759;
+	color: #FFF;
+	opacity: 0.8;
 }
+
+#site-title h1 a:hover {
+	color: #FFF;
+	opacity: 1;
+}
+
+
 
 /* --- Intro Slogan --- */
 #masthead .slogan {
@@ -651,6 +658,11 @@ a.more-link span,
 	z-index: 1;
 	line-height: 0;
 	text-align: center;
+	background-image: url('http://testcms.wildeweg.nl/wp-content/uploads/2014/06/hero-image.png');
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 666px;
 }
 .entry-thumbnail img.wp-post-img {
 	line-height: 0;
@@ -742,7 +754,7 @@ a.more-link span,
 	font-size: 14px;
 	font-size: 0.875rem;
 	text-transform: lowercase;
-	font-variant: s;
+	font-variant: smal;
 	letter-spacing: 2px;
 	cursor:pointer;
 	z-index: 10;
@@ -2540,23 +2552,23 @@ p.comment-subscription-form:last-child {
 	/* --- Header --- */
 	#site-title {
 		padding-top: 0;
-		padding-bottom: 90px;
+		padding-bottom: 0;
 		text-align: left;
 		clear: both;
 		overflow: hidden;
 	}
 	#site-title {
-		padding-top: 70px;
+		padding-top: 0;
 	}
 	.no-info #site-title {
-		padding-top: 35px;
+		padding-top: 0;
 	}
 	#site-title a.logo img {
 		display: inline-block;
 		float: left;
 	}
 	#site-title h1 {
-		margin: 46px 0 0 30px;
+		margin: 515px 0 0 310px;
 		display: inline-block;
 		float: left;
 	}
