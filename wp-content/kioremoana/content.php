@@ -17,7 +17,6 @@
 
 	<header class="entry-header">
 		<div class="pf-icon"><?php _e( 'Post', 'kioremoana' ); ?></div>
-		<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'kioremoana' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 		<div class="entry-details">
 			<div class="entry-date"><a href="<?php the_permalink(); ?>" class="entry-date"><?php echo get_the_date(); ?></a></div>
 			<?php if ( comments_open() ) : ?>
@@ -32,6 +31,7 @@
 				<?php get_template_part( 'share'); ?>
 			<?php endif; ?>
 		</div><!--end .entry-details -->
+		<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'kioremoana' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 	</header><!--end .entry-header -->
 
 	<?php if ( is_search() && ! get_post_format() ) : // Only display excerpts for archives and search. ?>		

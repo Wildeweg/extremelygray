@@ -17,7 +17,6 @@
 	
 	<header class="entry-header">
 		<div class="pf-icon"><?php _e( 'Post Format', 'kioremoana' ); ?></div>
-		<h1 class="entry-title"><?php the_title(); ?></h1>
 		<div class="entry-details">
 			<div class="entry-date"><a href="<?php the_permalink(); ?>" class="entry-date"><?php echo get_the_date(); ?></a></div>
 			<?php if ( comments_open() ) : ?>
@@ -32,6 +31,7 @@
 			<?php get_template_part( 'share'); ?>
 		<?php endif; ?>
 		</div><!--end .entry-details -->
+		<h1 class="entry-title"><?php the_title(); ?></h1>		
 	</header><!--end .entry-header -->
 
 	<div class="entry-content clearfix">
