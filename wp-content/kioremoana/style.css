@@ -478,7 +478,7 @@ a.more-link:hover span {
 /*-----------------------------------------------------------------------------------*/
 a,
 #colophon .footer-nav {
-	color: #33a6b8;
+	color: #575757;
 	text-decoration: none;
 }
 a.more-link span,
@@ -486,10 +486,10 @@ a.more-link span,
 #respond a#cancel-comment-reply-link,
 input#submit, 
 input.wpcf7-submit {
-	background: #33a6b8;
+	background: #575757;
 }
 #masthead .slogan p.slogan-text:before {
-	border-top: 2px solid #33a6b8;
+	border-top: 2px solid #575757;
 }
 a:hover,
 #comments li.comment-author a:hover {
