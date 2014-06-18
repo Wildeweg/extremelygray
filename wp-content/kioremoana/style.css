@@ -686,7 +686,7 @@ a.more-link span,
 /* --- Post Format Icons --- */
 .entry-header .pf-icon {
 	position: absolute;
-	top: -35px; left: 0; bottom: 0; right: 0;
+	top: 115px !important; left: -212px;
 	overflow: auto;
 	margin: 0 auto;
 	width: 70px;
@@ -2690,7 +2690,6 @@ p.comment-subscription-form:last-child {
 	}
 	/* --- Post Format Icons --- */
 	.entry-header .pf-icon {
-		top: -45px;
 		width: 90px;
 		height: 90px;
 		background-size: 810px auto !important;
