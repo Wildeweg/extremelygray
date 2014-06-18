@@ -657,7 +657,7 @@ a.more-link span,
 }
 .entry-header {
 	position: relative;
-	text-align: center;
+	text-align: left;
 	word-wrap: break-word;
 	-ms-word-wrap: break-word;
 }
@@ -2994,6 +2994,7 @@ p.comment-subscription-form:last-child {
 	/* --- Post --- */
 	.entry-header h1.entry-title,
 	.entry-header h2.entry-title {
+		width: 126%; /* 860px/680px */
 		font-size: 40px;
 		font-size: 2.5rem;
 		padding: 80px 0 20px;
