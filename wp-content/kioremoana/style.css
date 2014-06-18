@@ -562,7 +562,7 @@ a.more-link span,
 	text-align: center;
 }
 #masthead a.info-btn {
-	display: inline-block;
+	display: block;
 }
 #masthead a.info-btn span.show-info {
 	display: inline-block;
