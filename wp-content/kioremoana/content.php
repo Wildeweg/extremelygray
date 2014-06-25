@@ -19,12 +19,6 @@
 		<div class="pf-icon"><?php _e( 'Post', 'kioremoana' ); ?></div>
 		<div class="entry-details">
 			<div class="entry-date"><a href="<?php the_permalink(); ?>" class="entry-date"><?php echo get_the_date(); ?></a></div>
-			<?php if ( comments_open() ) : ?>
-				<div class="entry-comments">
-				<?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'kioremoana' ) . '</span>', __( '1 comment', 'kioremoana' ), __( '% comments', 'kioremoana' ) ); ?>
-				</div><!-- .comments-link -->
-			<?php endif; // comments_open() ?>
-			<?php edit_post_link( __( 'Edit', 'kioremoana' ), '<div class="entry-edit">', '</div>' ); ?>
 			<?php // Include Share Btns
 				$options = get_option('kioremoana_theme_options');
 				if( $options['share-posts'] ) : ?>
