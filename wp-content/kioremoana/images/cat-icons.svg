@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="30px" viewBox="0 0 300 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch Beta 3.0.4 (7942) - http://www.bohemiancoding.com/sketch -->
+    <title>cat-icons</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="cat-icons" sketch:type="MSArtboardGroup">
+            <circle id="Oval-7" stroke="#D6D6D6" stroke-width="3" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="285" cy="15" r="15"></circle>
+            <circle id="Oval-6" stroke="#323232" stroke-width="3" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="195" cy="15" r="15"></circle>
+            <path d="M195,0 C186.715729,0 180,6.71572875 180,15 C180,23.2842712 186.715729,30 195,30 L195,0 Z" id="Oval-8" stroke="#323232" stroke-width="3" fill="#323232" sketch:type="MSShapeGroup"></path>
+            <circle id="Oval-5" fill="" sketch:type="MSShapeGroup" cx="105" cy="15" r="15"></circle>
+            <circle id="Oval-4" fill="#252525" sketch:type="MSShapeGroup" cx="15" cy="15" r="15"></circle>
+        </g>
+    </g>
+</svg>

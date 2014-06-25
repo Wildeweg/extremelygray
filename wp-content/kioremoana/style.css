@@ -93,8 +93,7 @@ body {
 #infohead,
 .archive-header,
 #disqus_thread {
-	padding-left: 15px;
-	padding-right: 15px;
+	
 }
 
 /* --- Google Fonts --- */
@@ -672,6 +671,7 @@ a.more-link span,
 	text-align: left;
 	word-wrap: break-word;
 	-ms-word-wrap: break-word;
+	margin-top: 70px	;
 }
 .entry-header h1.entry-title,
 .entry-header h2.entry-title {
@@ -686,21 +686,20 @@ a.more-link span,
 /* --- Post Format Icons --- */
 .entry-header .pf-icon {
 	position: absolute;
-	top: 115px !important; left: -212px;
+	top: 65px !important; left: 0;
 	overflow: auto;
+	padding: 0;
 	margin: 0 auto;
-	width: 70px;
-	height: 70px;
+	width: 30px !important;
+	height: 30px;
 	display:inline-block;
-	background: #fff url(images/pf-icons.png);
-	background-position-y: 0;
+	background: url(images/cat-icons.png);
+	background-position: -90px 0;
 	background-repeat: no-repeat;
-	background-size: 630px auto !important;
+	background-size: 300px auto !important;
 	text-indent: -99999px;
-	-webkit-border-radius: 100px;
-	   -moz-border-radius: 100px;
-	        border-radius: 100px;
 }
+
 .format-quote .entry-header .pf-icon {background-position: -70px 0;}
 .format-image .entry-header .pf-icon {background-position: -140px 0;}
 .format-gallery .entry-header .pf-icon {background-position: -210px 0;}
@@ -715,15 +714,19 @@ a.more-link span,
 .entry-details {
 	position: relative;
 	display: inline-block;
+	width: 81.904761904762%; /* 860/1050 */
+	margin-left: 18.095238095238%; /* 190/1050 */
 	padding: 0 0 23px;
 	/* adjust */
-	font-size: 14px;
-	font-size: 0.875rem;
-	color: #9e9e9e;
+	font-size: 16px;
+	font-size: 1rem;
+	color: #808080;
 	text-transform: lowercase;
-	font-variant: small-caps;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
+
+
+
 .entry-details .entry-date,
 .entry-details .entry-edit {
 	display: inline;
@@ -752,11 +755,11 @@ a.more-link span,
 	border:none;
 	outline:0;
 	padding: 0;
-	font-size: 14px;
-	font-size: 0.875rem;
+	font-size: 16px;
+	font-size: 1rem;
 	text-transform: lowercase;
 	font-variant: small-caps;
-	letter-spacing: 2px;
+	letter-spacing: 0px;
 	cursor:pointer;
 	z-index: 10;
 }
@@ -910,7 +913,6 @@ img.img-border {
 	height:auto;
 }
 .wp-caption.alignnone {
-	margin: 0;
 }
 .wp-caption {
 	max-width: 100%;
@@ -2613,7 +2615,8 @@ p.comment-subscription-form:last-child {
 		background-size: 120px auto;
 	}
 	.entry-details {
-		padding: 80px 0 20px;
+		padding-top: 80px
+		padding-bottom: 20px;
 	}
 	.entry-details .entry-comments {
 		display: inline;
@@ -2683,9 +2686,9 @@ p.comment-subscription-form:last-child {
 	}
 	/* --- Post Format Icons --- */
 	.entry-header .pf-icon {
-		width: 90px;
-		height: 90px;
-		background-size: 810px auto !important;
+		width: 30px;
+		height: 30px;
+		background-size: 300px auto !important;
 	}
 	.format-quote .entry-header .pf-icon {background-position: -90px 0;}
 	.format-image .entry-header .pf-icon {background-position: -180px 0;}
@@ -2963,12 +2966,12 @@ p.comment-subscription-form:last-child {
 	#colophon,
 	.archive-header,
 	#disqus_thread {
-		max-width: 680px;
+		width:  100%;;
+		max-width: 1050px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 	#site-title {
-		max-width: 680px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -2999,11 +3002,25 @@ p.comment-subscription-form:last-child {
 	/* --- Post --- */
 	.entry-header h1.entry-title,
 	.entry-header h2.entry-title {
-		width: 126%; /* 860px/680px */
+		width: 81.904761904762%; /* 860/1050 */
+		margin-left: 18.095238095238%; /* 190/1050 */
+
 		font-size: 40px;
 		font-size: 2.5rem;
 		padding: 0 0 43px;
 	}
+	
+	/* column width small middle */
+	.entry-content p,
+	.entry-summary p,
+	.entry-content ul,
+	.entry-content ol,
+	.entry-content h2,
+	.entry-content h3 {
+		width: 61.904761904762%;  /* 650/1050 */
+		margin-left: 18.095238095238% /* 190/1050 */
+	}
+	
 	.entry-content p,
 	.entry-summary p,
 	.entry-content ul,
@@ -3011,6 +3028,7 @@ p.comment-subscription-form:last-child {
 		font-size: 24px;
 		font-size: 1.5rem;
 	}
+	
 	.entry-content blockquote p {
 		padding-left: 50px;
 		font-size: 26px;
@@ -3234,9 +3252,9 @@ p.comment-subscription-form:last-child {
 	
 	/* --- Images --- */
 	.size-full {
-			width: 154,411764705882%;
-			margin-left: -27,205882352941%;
-			margin-left: -185px;
+			width: 154,41176470588235%; /* 1050/680 */
+			margin-left: -27.20588235294118%;
+
 	}
 	img, .wp-caption {
 		max-width: none;		
@@ -3329,13 +3347,14 @@ p.comment-subscription-form:last-child {
 	
 	/* --- Images --- */
 	.size-full {
-			width: 154,411764705882%;
-			margin-left: -27,205882352941%;
-			margin-left: -185px;
-	}
+		width: 154,41176470588235%; /* 1050/680 */
+		margin-left: -29.35%;
+	}	
+	
 	.wp-caption {
-		max-width: none;
+		margin-left:  18.095238095238%;
 	}
+
 	
 }
 
@@ -3352,7 +3371,7 @@ p.comment-subscription-form:last-child {
 	.site-content .post,
 	.site-content .type-attachment,
 	.search-results div.page {background: url(images/x2/post-bottom.png) 50% bottom no-repeat; background-size: 100px auto;}
-	.entry-header .pf-icon {background: #fff url(images/x2/pf-icons.png); background-size: 810px 90px;}
+	.entry-header .pf-icon {background: #fff url(images/x2/cat-icons.png); background-size: 300px 30px;}
 	.entry-details .share-links-wrap:after {background: url(images/x2/sharebox-arrow.png) 0 0 no-repeat; background-size: 30px 18px;}
 	.format-quote .entry-content blockquote cite {background: url(images/x2/quote-icon.png) 50% 0 no-repeat; background-size: 50px auto;}
 	#infohead a.home-btn {background: #fff url(images/x2/home-icon.png) 0 0 no-repeat; background-size: 70px 70px;}
