@@ -1387,14 +1387,11 @@ video {
 .format-audio .entry-header h2.entry-title,
 .format-chat .entry-header h1.entry-title, 
 .format-chat .entry-header h2.entry-title {
-	font-size: 15px;
-	font-size: 0.9375rem;
-	text-transform: uppercase;
-	letter-spacing: 2px;
+	/* custom styling post-formats deleted */
 }
 .format-quote p,
 .format-link p {
-	text-align: center;
+	/* custom styling post-formats deleted */
 }
 .format-quote blockquote {
 	background: #f2f2f2;
@@ -1441,29 +1438,25 @@ video {
 	padding-bottom: 0;
 }
 .format-status .entry-content p {
-	text-align: center;
-	font-size: 21px;
-	font-size: 1.3125rem;
-	color: #4f5759;
-	line-height: 1.6;
+		/* custom styling post-formats deleted */	
 }
 .format-aside .entry-content p {
-	font-size: 15px;
-	font-size: 0.9375rem;
+		/* custom styling post-formats deleted */
+	
 }
 .format-chat .entry-content ul {
-	padding-left: 0;
-	line-height: 1.35 !important;
+		/* custom styling post-formats deleted */
+	
 }
 .format-chat ul li {
-	list-style: none;
+		/* custom styling post-formats deleted */	
 }
 .format-chat ul li.even {
-	background: #f2f2f2;
-	padding: 20px 15px;
+		/* custom styling post-formats deleted */
+	
 }
 .format-chat ul li.odd {
-	padding: 0 15px;
+		/* custom styling post-formats deleted */	
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -3111,7 +3104,9 @@ p.comment-subscription-form:last-child {
 	.format-image .entry-content,
 	.format-video .entry-content,
 	.type-attachment .entry-content {
-		max-width: 1160px;
+		/* max-width: 1160px; */
+		/* custom styling post-formats deleted */
+		
 	}
 	.format-quote .entry-content blockquote p,
 	.format-link a.link,
