@@ -1,3 +1,5 @@
+/* @override http://testcms.wildeweg.nl/wp-content/themes/kioremoana/style.css?ver=2013-10-02 */
+
 /*
 Theme Name: Kiore Moana
 Theme URI: http://www.elmastudio.de/en/themes/kioremoana/
@@ -225,7 +227,6 @@ p {
 }
 ul, ol {
 	margin: 0 0 34px 0;
-	padding-left: 40px;
 }
 ul {
 	list-style: disc;
@@ -1395,7 +1396,7 @@ video {
 .format-link p {
 	/* custom styling post-formats deleted */
 }
-.format-quote blockquote {
+.format-quote blockquote, .category-samengevat blockquote {
 	background: #f2f2f2;
 	padding: 34px 15px;
 	clear: both;
@@ -1460,6 +1461,62 @@ video {
 .format-chat ul li.odd {
 		/* custom styling post-formats deleted */	
 }
+
+/* styling voor category 'samengevat' */
+.category-samengevat h2 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.category-samengevat li {
+	
+}
+
+.category-samengevat li {
+	margin: 0;
+	padding: 0;
+}
+
+/* lists */
+p + ul,
+p + ol {
+  /* margin ul when coming after p */
+  margin-top: -1.5em;
+}
+ul,
+ol {
+  margin-bottom: 3em;
+  font-size: 1em !important;
+  padding-left: 2em !important;
+}
+
+.category-samengevat ul {
+  list-style: none !important;
+  font-size: 1em !important;
+}
+
+ul li {
+	list-style-position: inside !important;
+  text-indent: -2em;
+}
+
+ol li {
+	list-style-position: inside !important;
+  text-indent: -2em;
+}
+
+ol > li:before {
+  color: grey;
+  /* or whatever color you prefer */
+  content: "\2003";
+}
+
+ul > li:before {
+  color: grey;
+  /* or whatever color you prefer */
+  content: "• \2003";
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*	7.0 Blog + Post Paginations
