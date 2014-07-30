@@ -1,6 +1,6 @@
 Post formats:
 
-
+Artikel -> read more toevoegen, anders wordt foto niet getoond
 Quote -> voor korte quotes met 1 regel + naam
 Aside -> Kort artikel waarin een fragment van een ander artikel, videofragment oid geciteerd wordt en waar een korte duiding bij wordt geschreven.
 Link -> voor link(s) naar een interessant artikel. Toelichting van max 140 tekens
